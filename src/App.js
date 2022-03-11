@@ -4,7 +4,7 @@ import HeaderPerso from './components/headerPerso';
 import Produits from './components/Produits';
 import Cart from './components/Cart';
 import Footer from './components/Footer';
-//import Affichage from './components/plantliste';
+import Affichage from './components/plantliste';
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
         <Produits />
         <Cart />
       </header>
-      {/* <Affichage/> */}
+      <Affichage/>
       <Footer/>
     </div>
   );
