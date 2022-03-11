@@ -1,3 +1,5 @@
+import Cactus from '../assets/cactus.jpg';
+
 export const Objets = [
         {
             name: 'Cactus',
@@ -18,16 +20,29 @@ export const Objets = [
     ]
 
 
-function Affichage() {
+/*function Affichage() {
 
     return (
-        <ul>
-            {
-                Liste.map((Cart) => (
-                    <li>{Cart}</li>
-                ))
+        
+            /*{ Liste.map((plant) => (
+            case cactus : 
+            cactus.jpg
+            break;
+            case pink : 
+            pink.jpg
+            break;
+            case rose: 
+            rose.jpg
+            break;
+                )
+                )
             }
-        </ul>     )
+           )*/
+        
+
+
+function App() {
+    return <img src={Cactus} />
 }
 
-export default Affichage
+/*export default Affichage*/

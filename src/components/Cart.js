@@ -1,4 +1,4 @@
-import { liste } from './plantliste';
+// import { liste } from './plantliste';
 
 function Cart() {
     const cactusPrice = 3
