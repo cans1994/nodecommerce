@@ -58,7 +58,7 @@ export default function objetsofthings() {
                         <li>{name}</li>
                         <img src={image}/>
                         <li>{Price} €</li>
-                        <li>{description}</li>
+                        <li>if {description}</li>
                 </ul>
             ))}
         </ul>
