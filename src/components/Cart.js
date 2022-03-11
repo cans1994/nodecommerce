@@ -1,3 +1,5 @@
+import { liste } from './plantliste';
+
 function Cart() {
     const cactusPrice = 3
     const pinkPrice = 300

@@ -4,7 +4,7 @@ import HeaderPerso from './components/headerPerso';
 import Produits from './components/Produits';
 import Cart from './components/Cart';
 import Footer from './components/Footer';
-import Affichage from './components/liste';
+import Affichage from './components/plantliste';
 
 function App() {
   return (
